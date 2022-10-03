@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // Sensible defaults
+    "forceConsistentCasingInFileNames": true, // Raises an error if you include a file with a casing different from the casing on disk
+    "allowUnreachableCode": false, // Raises compiler errors about unreachable code
+    "strictNullChecks": true, // When enabled, null and undefined have their own distinct types
+    "removeComments": true, // Remove comments from output files
+    "noUncheckedIndexedAccess": true, // Must handle possible undefined when using array value
+    "noImplicitReturns": true, // When enabled, TypeScript will check all code paths in a function to ensure they return a value
+    "noUnusedLocals": true, // Report errors on unused local variables
+    "noImplicitAny": true, // TypeScript will issue an error whenever it would have inferred 'any'
+    "noUnusedParameters": true, // Report errors on unused parameters in functions
+
+    // Project specific
+    "outDir": "dist",
+    "rootDir": "src", // This folder should contain all source files found by 'include' globs
+    "declaration": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

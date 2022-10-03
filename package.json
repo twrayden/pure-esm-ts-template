@@ -1,0 +1,9 @@
+{
+  "name": "ts-template",
+  "scripts": {
+    "build": "del-cli dist && tsc"
+  },
+  "devDependencies": {
+    "del-cli": "5.0.0"
+  }
+}
