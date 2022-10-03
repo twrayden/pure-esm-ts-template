@@ -14,7 +14,9 @@
     // Project specific
     "outDir": "dist",
     "rootDir": "src", // This folder should contain all source files found by 'include' globs
-    "declaration": true
+    "declaration": true,
+    "module": "node16",
+    "moduleResolution": "node16"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
