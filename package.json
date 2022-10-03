@@ -1,9 +1,15 @@
 {
-  "name": "ts-template",
+  "name": "pure-esm-ts-template",
+  "type": "module",
+  "exports": "./dist/index.js",
   "scripts": {
     "build": "del-cli dist && tsc"
   },
   "devDependencies": {
+    "typescript": "4.8.4",
     "del-cli": "5.0.0"
+  },
+  "engines": {
+    "node": ">=14.16"
   }
 }
