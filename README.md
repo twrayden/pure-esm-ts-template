@@ -1,1 +1,1 @@
-# ts-esm-template
+# pure-esm-ts-template
