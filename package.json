@@ -1,6 +1,9 @@
 {
   "name": "pure-esm-ts-template",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
