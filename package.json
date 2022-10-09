@@ -17,5 +17,9 @@
   },
   "engines": {
     "node": ">=14.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:thomasraydeniscool/pure-esm-ts-template.git"
   }
 }
